@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 ::root{
-    --roxo: ;
+    --roxo: #4a15a0;
     --branco: #fff;
     --cinza-claro: #303030;
     --cinza-escuro: #202020;
@@ -10,6 +10,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     font-family: "Montserrat", sans-serif;
@@ -26,18 +27,51 @@ li, a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    transition: all .5s ease;
+}
+#nav img{
+    cursor: pointer;
 }
 #menu{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     font-size: 1.1rem;
 }
 #menu a li{
     transition: all .3s ease;
+    position: relative;
 }
 #menu a Li:hover{
     font-size: 1.25rem;
 }
+
+#menu a li:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: -3px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: width .3s ease 0s, left .3s ease 0s;
+    width: 0;
+}
+#menu a li:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+/* EFEITO DE ROLAGEM */
+.rolagem{
+    background-color: #fff;
+}
+
+
+/* MAIN */
+/* HERO */
