@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+::root{
+    --roxo: ;
+    --branco: #fff;
+    --cinza-claro: #303030;
+    --cinza-escuro: #202020;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    height: 1000vh;
+}
+
+li, a{
+    text-decoration: none;
+    color: #202020;
+    list-style: none;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+#menu a li{
+    transition: all .3s ease;
+}
+#menu a Li:hover{
+    font-size: 1.25rem;
+}
