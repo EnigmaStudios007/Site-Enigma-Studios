@@ -30,6 +30,7 @@ li, a{
     position: fixed;
     width: 100%;
     transition: all .5s ease;
+    z-index: 1;
 }
 #nav img{
     cursor: pointer;
@@ -45,6 +46,7 @@ li, a{
 #menu a li{
     transition: all .3s ease;
     position: relative;
+    color: #fff;
 }
 #menu a Li:hover{
     font-size: 1.25rem;
@@ -77,4 +79,5 @@ li, a{
 /* HERO */
 .ddd{
     width: 100%;
+    z-index: -1;
 }
