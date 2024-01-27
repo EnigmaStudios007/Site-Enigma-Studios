@@ -71,7 +71,8 @@ li, a{
 
 /* EFEITO DE ROLAGEM */
 .rolagem{
-    background-color: #fff;
+    background-color: #303030;
+    border-radius: 0 0 20px 20px;
 }
 
 
