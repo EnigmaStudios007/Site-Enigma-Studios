@@ -69,7 +69,7 @@ li, a{
     left: 0;
 }
 
-.spline-watermark{
+ a.spline-watermark{
     visibility: hidden;
 }
 
