@@ -69,6 +69,10 @@ li, a{
     left: 0;
 }
 
+.spline-watermark{
+    visibility: hidden;
+}
+
 /* EFEITO DE ROLAGEM */
 .rolagem{
     background-color: #303030;
