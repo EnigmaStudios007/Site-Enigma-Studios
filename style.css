@@ -85,7 +85,7 @@ li, a{
     left: 20vw;
 }
 .video{
-    width: 100%;
+    /* width: 100%; */
     z-index: -1;
     /* position: relative; */
 }
