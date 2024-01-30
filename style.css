@@ -60,7 +60,7 @@ li, a{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #000;
+    background: #4a15a0;
     transition: width .3s ease 0s, left .3s ease 0s;
     width: 0;
 }
