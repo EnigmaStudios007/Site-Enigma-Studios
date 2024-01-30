@@ -4,3 +4,11 @@ window.addEventListener('scroll', function(){
 });
 
 //MATHEUS E SUA CABEÇONA S2
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   var elementoSplineWatermark = document.querySelector('#');
+
+
+//   if (elementoSplineWatermark) {
+      
+//       elementoSplineWatermark.style.visibility = 'hidden';}
