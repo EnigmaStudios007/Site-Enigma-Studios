@@ -33,7 +33,7 @@ li, a{
     z-index: 1;
 }
 #nav img{
-    cursor: pointer;
+    cursor: default;
 }
 #menu{
     display: flex;
@@ -67,6 +67,16 @@ li, a{
 #menu a li:hover:after{
     width: 100%;
     left: 0;
+}
+#menu a.btn1 li{
+    background-color: #4a15a0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+#menu a.btn1 li:hover{
+    background-color: #fff;
+    color: #4a15a0;
 }
 
  a#logo{
