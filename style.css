@@ -46,7 +46,7 @@ li, a{
 #menu a li{
     transition: all .3s ease;
     position: relative;
-    color: #303030;
+    color: #fff;
 }
 #menu a Li:hover{
     font-size: 1.25rem;
@@ -78,7 +78,7 @@ li, a{
 #canto a.btn1 li:hover{
     background-color: #e7e6e6;
     color: #4a15a0;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
  a#logo{
